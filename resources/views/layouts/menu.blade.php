@@ -1,5 +1,7 @@
 <ul>
-    <li>Home</li>
-    <li>Bars</li>
-    <li>Contact</li>
+    <a href="/">Home Page</a>
+    <br>
+    <a href="bar">Display Bars</a>
+    <br>
+    <a href="about">About Page</a>
 </ul>

@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+// My modal for the Bar.
+
 class Bar extends Model
 {
     protected $fillable = [

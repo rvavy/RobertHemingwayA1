@@ -7,5 +7,6 @@
 @section('body')
   <h1>This is the about page.</h1>
 
-  {!!Form::text('price')!!}
+  This is a website to show bars in Huddersfield. It shows the Name, the Street and also Information on the bar.
 @stop
+

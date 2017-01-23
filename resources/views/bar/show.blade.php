@@ -17,11 +17,9 @@
 <h3>{{$bar->information}}</h3>
 
 
-<a href="#">Edit</a>  
+<a href="{{route('bar.edit', $bar->id)}}">Edit</a>  
 
 {!!Form::submit('Delete')!!}
-
-
 
 {!!Form::close()!!}
 

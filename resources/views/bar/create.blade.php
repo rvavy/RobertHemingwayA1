@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-  Create new Bar plzzzzz
+  Create new Bar
 @stop
 
 @section('body')
