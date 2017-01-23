@@ -68,7 +68,14 @@ class BarController extends Controller
      */
     public function edit($id)
     {
-        //
+
+      $bar = Bar::find($id);
+
+
+
+      return view('bar.edit')->with('bar', $bar);
+
+
     }
 
     /**
@@ -80,7 +87,15 @@ class BarController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+
+      $bar = Bar::find($id);
+
+      $bar->name = $request->name;
+      $bar->street = $request->street;
+      $bar->information = $request->information;
+      $bar->save();
+
+      return redirect()->route('bar.index');
     }
 
     /**
